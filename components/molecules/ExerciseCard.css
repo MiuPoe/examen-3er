@@ -1,0 +1,15 @@
+.exercise-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background-color: #1f1f23;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.exercise-card:hover {
+  background-color: #27272c;
+  transform: translateY(-1px);
+}
